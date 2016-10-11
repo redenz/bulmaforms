@@ -1,5 +1,5 @@
 {
-    "name": "adamwathan/bootforms",
+    "name": "redenz/bulmaforms",
     "description": "Just a Formbuilder with some Bootstrap specific conveniences. Remembers old input, retrieves error messages and handles all your boilerplate Bootstrap markup automatically.",
     "authors": [
         {
@@ -19,7 +19,7 @@
     },
     "autoload": {
         "psr-0": {
-            "AdamWathan\\BootForms": "src/"
+            "Redenz\\BulmaForms": "src/"
         }
     },
     "minimum-stability": "stable"

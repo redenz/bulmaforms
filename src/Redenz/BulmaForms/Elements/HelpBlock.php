@@ -1,4 +1,4 @@
-<?php namespace AdamWathan\BootForms\Elements;
+<?php namespace Redenz\BulmaForms\Elements;
 
 use AdamWathan\Form\Elements\Element;
 
@@ -6,10 +6,13 @@ class HelpBlock extends Element
 {
     private $message;
 
-    public function __construct($message)
+    public function __construct($message, $isError)
     {
         $this->message = $message;
-        $this->addClass('help-block');
+        $this->addClass('help');
+        if ($isError) {
+            $this->addClass('is-danger');
+        }
     }
 
     public function render()

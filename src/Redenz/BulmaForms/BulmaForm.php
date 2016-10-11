@@ -1,12 +1,14 @@
-<?php namespace AdamWathan\BootForms;
+<?php namespace Redenz\BulmaForms;
 
-class BootForm
+use Redenz\BulmaForms\BulmaFormBuilder;
+
+class BulmaForm
 {
     protected $builder;
     protected $basicFormBuilder;
     protected $horizontalFormBuilder;
 
-    public function __construct(BasicFormBuilder $basicFormBuilder, HorizontalFormBuilder $horizontalFormBuilder)
+    public function __construct(BulmaFormBuilder $basicFormBuilder, HorizontalFormBuilder $horizontalFormBuilder)
     {
         $this->basicFormBuilder = $basicFormBuilder;
         $this->horizontalFormBuilder = $horizontalFormBuilder;

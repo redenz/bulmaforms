@@ -1,4 +1,4 @@
-<?php namespace AdamWathan\BootForms;
+<?php namespace Redenz\BulmaForms;
 
 use AdamWathan\Form\ErrorStore\IlluminateErrorStore;
 use AdamWathan\Form\FormBuilder;

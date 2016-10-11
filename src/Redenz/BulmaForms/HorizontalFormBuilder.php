@@ -1,10 +1,10 @@
-<?php namespace AdamWathan\BootForms;
+<?php namespace Redenz\BulmaForms;
 
-use AdamWathan\BootForms\Elements\CheckGroup;
-use AdamWathan\BootForms\Elements\HelpBlock;
-use AdamWathan\BootForms\Elements\HorizontalFormGroup;
-use AdamWathan\BootForms\Elements\OffsetFormGroup;
 use AdamWathan\Form\FormBuilder;
+use Redenz\BulmaForms\Elements\CheckGroup;
+use Redenz\BulmaForms\Elements\HelpBlock;
+use Redenz\BulmaForms\Elements\HorizontalFormGroup;
+use Redenz\BulmaForms\Elements\OffsetFormGroup;
 
 class HorizontalFormBuilder extends BasicFormBuilder
 {

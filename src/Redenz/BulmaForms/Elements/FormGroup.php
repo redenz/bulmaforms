@@ -1,4 +1,4 @@
-<?php namespace AdamWathan\BootForms\Elements;
+<?php namespace Redenz\BulmaForms\Elements;
 
 use AdamWathan\Form\Elements\Element;
 use AdamWathan\Form\Elements\Label;
@@ -13,7 +13,7 @@ class FormGroup extends Element
     {
         $this->label = $label;
         $this->control = $control;
-        $this->addClass('form-group');
+        $this->addClass('control');
     }
 
     public function render()
@@ -30,12 +30,12 @@ class FormGroup extends Element
         return $html;
     }
 
-    public function helpBlock($text)
+    public function helpBlock($text, $isError = false)
     {
         if (isset($this->helpBlock)) {
             return;
         }
-        $this->helpBlock = new HelpBlock($text);
+        $this->helpBlock = new HelpBlock($text, $isError);
         return $this;
     }
 

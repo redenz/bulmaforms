@@ -1,8 +1,8 @@
-<?php namespace AdamWathan\BootForms\Facades;
+<?php namespace Redenz\BulmaForms\Facades;
 
 use Illuminate\Support\Facades\Facade;
 
-class BootForm extends Facade
+class BulmaForm extends Facade
 {
     /**
      * Get the registered name of the component.
@@ -11,6 +11,6 @@ class BootForm extends Facade
      */
     protected static function getFacadeAccessor()
     {
-        return 'bootform';
+        return 'bulmaform';
     }
 }

@@ -1,4 +1,4 @@
-<?php namespace AdamWathan\BootForms\Elements;
+<?php namespace Redenz\BulmaForms\Elements;
 
 use AdamWathan\Form\Elements\Text;
 
