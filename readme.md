@@ -1,3 +1,5 @@
+# Fork from Adam Wathan's BootForms package to create a Bulma form builder. This is still under heavy development and not recommended yet for use. So far text fields work but other form inputs haven't been tested.
+
 BootForms
 ===============
 
